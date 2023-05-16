@@ -1,8 +1,10 @@
 ## Classes ##
 
-Classes are used to define blueprints for creating objects that encapsulate attributes (variables) and methods (functions) related to a specific entity.
+Classes are used to define blueprints for creating objects that encapsulate data and behavior related to a specific entity.
 
-
+- Classes are defined using the keyword *class* followed by the class name.
+- Classes contain attributes (variables) and methods (functions).
+- The `__init__` method is a special method used as a constructor to initialize the object's attributes when it is created.
 
 ## Objects ##
 
@@ -33,7 +35,7 @@ class Car:
         print(f"Mileage: {self.mileage} miles")
 ```
 ```
-# _Create instances of the Car class_
+# Create instances of the Car class
 car1 = Car("Toyota", "Camry", 2020)
 car2 = Car("Ford", "Mustang", 2018)Create instances of the Car class)
 
