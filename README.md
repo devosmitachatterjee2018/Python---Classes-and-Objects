@@ -2,6 +2,8 @@
 
 Classes are used to define blueprints for creating objects that encapsulate attributes (variables) and methods (functions) related to a specific entity.
 
+
+
 ## Objects ##
 
 Objects are referred to as specific instances of a class.
@@ -31,7 +33,7 @@ class Car:
         print(f"Mileage: {self.mileage} miles")
 ```
 ```
-# `*`Create instances of the Car class`*`
+# _Create instances of the Car class_
 car1 = Car("Toyota", "Camry", 2020)
 car2 = Car("Ford", "Mustang", 2018)Create instances of the Car class)
 
