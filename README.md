@@ -106,7 +106,7 @@ car3 = Car.from_string("Ford, Mustang, 2018")
 print(car3.make, car3.model, car3.year)  # Output: Ford Mustang 2018
 ```
 
-- **Accessing Class-level Data**: Class methods allows to perform operations that involve shared data among instances or manipulate class attributes. 
+- **Accessing Class-level Data**: Class methods allows to perform operations that involve shared data among instances or manipulate class attributes. These provide a convenient way to access and modify class-level data without needing an instance of the class.
 
 ```
 class Car:
