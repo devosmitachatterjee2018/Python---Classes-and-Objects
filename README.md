@@ -69,12 +69,13 @@ car2.display_info()    # Output:
 
 ## Advantages ##
 We use class methods in Python for various reasons. 
-Alternative Constructors: Class methods provide a way to define alternative constructors for a class. By creating class methods that accept different parameters or initialization mechanisms, you can provide additional ways to create instances of the class. This enhances the flexibility and usability of your code.
 
-Accessing Class-level Data: Class methods have access to class-level variables and attributes. This allows you to perform operations that involve shared data among instances or manipulate class attributes. Class methods provide a convenient way to access and modify class-level data without needing an instance of the class.
+- **Alternative Constructors**: We can create multiple instances of the class by defining class methods that accept different parameters or initialization mechanisms. This enhances the flexibility and usability of your code.
 
-Encapsulation and Organization: Class methods help to encapsulate complex or specialized operations that are closely tied to the class. By defining these operations as class methods, you keep the code organized and maintain a clear separation between class-level operations and instance-level operations. This enhances code readability and maintainability.
+- **Accessing Class-level Data**: Class methods allows to perform operations that involve shared data among instances or manipulate class attributes. 
 
-Utility Functions: Class methods can be used to define utility functions that are related to the class but don't require access to instance-specific data. These methods can provide useful operations that can be called directly on the class without creating an instance. This promotes code reusability and organization.
+- **Encapsulation and Organization**: Class methods help to encapsulate complex or specialized operations that are closely tied to the class. By defining these operations as class methods, you keep the code organized and maintain a clear separation between class-level operations and instance-level operations. This enhances code readability and maintainability.
 
-Polymorphism and Method Overriding: Class methods support polymorphism, allowing subclasses to override the behavior of a class method inherited from a superclass. This allows for specialized behavior in subclasses while maintaining a consistent interface defined by the superclass. Class methods facilitate the implementation of polymorphic behavior in object-oriented programming.
+- **Utility Functions**: Class methods can be used to define utility functions that are related to the class but don't require access to instance-specific data. These methods can provide useful operations that can be called directly on the class without creating an instance. This promotes code reusability and organization.
+
+- **Polymorphism and Method Overriding**: Class methods support polymorphism, allowing subclasses to override the behavior of a class method inherited from a superclass. This facilitate the implementation of polymorphic behavior in object-oriented programming.
