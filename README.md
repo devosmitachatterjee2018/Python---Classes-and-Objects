@@ -1,18 +1,26 @@
 ## Classes ##
 
-Classes are used to define blueprints for creating objects that encapsulate data and behavior related to a specific entity.
+Classes are used to define blueprints for creating objects that encapsulate data (attributes/variables) and behavior (methods/bfunctions) related to a specific entity.
 
-- Classes are defined using the keyword *class* followed by the class name.
-- Classes contain attributes (variables) and methods (functions).
-- The `__init__` method is a special method used as a constructor to initialize the object's attributes when it is created.
+- Classes are defined using the keyword `class` followed by the class name.
+- The `__init__` method is a special method used as a constructor to initialize the object's attributes.
+
+## Methods ##
+
+Methods are functions defined within a class that are used to perform operations on the object's data.
+
+- The first parameter of a method is conventionally named `self` and refers to the instance of the object calling the method.
+- Methods can access and modify the object's attributes using self.attribute_name.
 
 ## Objects ##
 
 Objects are referred to as specific instances of a class.
 
-## Methods ##
+- Objects are created from a class using the class name followed by parentheses. 
+- Any arguments required by the __init__ method can be passed within the parentheses.
+- Each object created from a class has its own set of attributes and can access the methods defined in the class.
 
-Methods are functions defined within a class that are used to perform operations on the object's data.
+
 
 ## Example Code ##
 
