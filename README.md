@@ -31,10 +31,8 @@ class Car:
         print(f"Mileage: {self.mileage} miles")
 ```
 ```
-<h1>foo</h1>
-[comment]: # (Create instances of the Car class)
 
-
+# *Create instances of the Car class*
 car1 = Car("Toyota", "Camry", 2020)
 car2 = Car("Ford", "Mustang", 2018)Create instances of the Car class)
 
