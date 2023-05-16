@@ -1,8 +1,16 @@
 ## Classes ##
 
-Classes are used to create objects that encapsulate data and methods related to a specific entity.
+Classes are used to define blueprints for creating objects that encapsulate attributes (variables) and methods (functions) related to a specific entity.
 
-## Code ##
+## Objects ##
+
+Objects are referred to as specific instances of a class.
+
+## Methods ##
+
+Methods are functions defined within a class that are used to perform operations on the object's data.
+
+## Example Code ##
 
 ```
 class Car:
@@ -23,7 +31,7 @@ class Car:
         print(f"Mileage: {self.mileage} miles")
 ```
 ```
-# Create instances of the Car class
+<!-- Create instances of the Car class -->
 car1 = Car("Toyota", "Camry", 2020)
 car2 = Car("Ford", "Mustang", 2018)
 ```
