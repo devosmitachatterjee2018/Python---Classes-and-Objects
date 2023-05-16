@@ -10,17 +10,15 @@ Classes are used to define blueprints for creating objects that encapsulate data
 Methods are functions defined within a class that are used to perform operations on the object's data.
 
 - The first parameter of a method is conventionally named `self` and refers to the instance of the object calling the method.
-- Methods can access and modify the object's attributes using self.attribute_name.
+- Methods can access and modify the object's attributes using `self.attribute_name`.
 
 ## Objects ##
 
 Objects are referred to as specific instances of a class.
 
 - Objects are created from a class using the class name followed by parentheses. 
-- Any arguments required by the __init__ method can be passed within the parentheses.
+- Any arguments required by the `__init__` method can be passed within the parentheses.
 - Each object created from a class has its own set of attributes and can access the methods defined in the class.
-
-
 
 ## Example Code ##
 
