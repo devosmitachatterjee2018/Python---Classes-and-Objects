@@ -43,10 +43,6 @@ class Car:
 ```
 # Create instances of the Car class
 car1 = Car("Toyota", "Camry", 2020)
-car2 = Car("Ford", "Mustang", 2018)Create instances of the Car class)
-
-
-car1 = Car("Toyota", "Camry", 2020)
 car2 = Car("Ford", "Mustang", 2018)
 ```
 ```
