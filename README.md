@@ -1,6 +1,6 @@
 ## Classes ##
 
-Classes are used to define blueprints for creating objects that encapsulate data (attributes/variables) and behavior (methods/bfunctions) related to a specific entity.
+Classes are used to define blueprints for creating objects that encapsulate data (attributes/variables) and behavior (methods/functions) related to a specific entity.
 
 - Classes are defined using the keyword `class` followed by the class name.
 - The `__init__` method is a special method used as a constructor to initialize the object's attributes.
